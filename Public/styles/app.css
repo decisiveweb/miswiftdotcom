@@ -9,7 +9,7 @@ body, html {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: -apple-system, sans-serif;
 	color: #333;
 	position: relative;
 }
