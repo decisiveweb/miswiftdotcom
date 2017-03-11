@@ -1,0 +1,79 @@
+<!-- Stock Code
+
+<!DOCTYPE html>
+<html>
+<head>
+    #import("head")
+</head>
+    <body>
+        #import("body")
+    </body>
+</html>
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- This must be first in the <head> -->
+    #embed("headContent")
+
+    #import("head")
+</head>
+
+<body>
+	<div class = "meetup-msg">
+	#if(link) {
+		<p>Join the #(attendees) Swifty People who are planning to attend the upcoming meetup — <a href=#(link) target="_blank">#(name)</a></p>
+	}##else() {
+		<p>No future meetups planned at this time.</p>
+	}
+	</div> <!--meetup-msg -->
+	
+    <div id="content">
+		<nav class="navbar navbar-toggleable-sm navbar-default sticky-top bg-inverse navbar-miswift">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#()navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+             
+            
+
+            <a class="navbar-brand" href="/">
+        		<img class = "navbar-brand nav-logo" src="./images/logo.png" alt="MiSwift Logo">
+      		</a>
+
+
+
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+
+                	<li class="nav-item"><a class="nav-link" href="/about">About </a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://www.meetup.com/mi-swift" target="_blank">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://www.bit.ly/miswift" target="_blank">Slack</a></li>
+          			<li class="nav-item"><a class="nav-link" href="/">Projects </a></li>
+          			<li class="nav-item"><a class="nav-link" href="/">Users </a></li>
+                </ul>
+
+                <form class="form-inline mt-2 mt-md-0">
+          			<input class="form-control mr-sm-2" type="text" placeholder="Search">
+          			<button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+        		</form>
+                
+            </div>
+        </nav>
+
+        
+
+
+
+        #import("body")
+
+    </div> <!-- content -->
+
+    #embed("footerAndScripts")
+
+</body>
+</html>
+

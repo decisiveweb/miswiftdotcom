@@ -1,0 +1,76 @@
+#extend("base")
+
+#export("head") {
+<title>Home | MiSwift</title>
+
+}
+
+
+
+#export("body") {
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="lead-title">MiSwift Headline</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium lectus quam id leo in. Fermentum iaculis eu non diam phasellus. Pulvinar neque laoreet suspendisse interdum. Tristique magna sit amet purus gravida quis blandit turpis cursus. Consectetur adipiscing elit pellentesque habitant morbi tristique. Turpis egestas sed tempus urna et pharetra pharetra. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum. Gravida quis blandit turpis cursus in hac habitasse platea. Ut morbi tincidunt augue interdum. Non nisi est sit amet.</p>
+
+            <p>Sed viverra tellus in hac. Adipiscing tristique risus nec feugiat. Ultrices in iaculis nunc sed. Nam at lectus urna duis convallis convallis tellus id. Dignissim enim sit amet venenatis urna. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Eu scelerisque felis imperdiet proin fermentum. Massa tincidunt nunc pulvinar sapien. Commodo elit at imperdiet dui accumsan sit amet nulla. Quis risus sed vulputate odio ut enim blandit volutpat maecenas. Nunc scelerisque viverra mauris in. Vitae congue eu consequat ac felis. Etiam tempor orci eu lobortis elementum nibh tellus molestie nunc. Ullamcorper dignissim cras tincidunt lobortis. Molestie nunc non blandit massa enim nec dui. Pharetra et ultrices neque ornare aenean euismod. Non blandit massa enim nec dui nunc mattis enim ut.</P
+
+            <p>Ultrices neque ornare aenean euismod elementum nisi. Sed risus pretium quam vulputate dignissim suspendisse in est ante. In hac habitasse platea dictumst quisque sagittis purus. Id aliquet risus feugiat in ante metus dictum. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Etiam dignissim diam quis enim lobortis. Lectus mauris ultrices eros in cursus turpis massa tincidunt dui. Condimentum lacinia quis vel eros donec ac. Porta nibh venenatis cras sed felis. Accumsan tortor posuere ac ut consequat. Lobortis scelerisque fermentum dui faucibus in. In fermentum posuere urna nec tincidunt praesent semper. Tincidunt ornare massa eget egestas purus.</p>
+
+            <pNisl rhoncus mattis rhoncus urna. Etiam erat velit scelerisque in dictum non consectetur a. Enim neque volutpat ac tincidunt vitae. Eget velit aliquet sagittis id consectetur. Tortor id aliquet lectus proin nibh nisl condimentum id. Hendrerit gravida rutrum quisque non tellus orci. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Sed adipiscing diam donec adipiscing tristique risus nec. Porta nibh venenatis cras sed felis eget velit aliquet. Gravida arcu ac tortor dignissim convallis aenean. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Molestie a iaculis at erat pellentesque adipiscing. Volutpat blandit aliquam etiam erat. Urna nec tincidunt praesent semper feugiat. Risus nec feugiat in fermentum posuere urna nec.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="album text-muted">
+      <div class="container">
+
+        <div class="row">
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+}
+
+
